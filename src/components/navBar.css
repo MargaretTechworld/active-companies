@@ -1,0 +1,30 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a4782;
+  padding: 20px;
+}
+
+.logo1 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10px;
+}
+
+.search-input {
+  width: 90%;
+  height: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-input::placeholder {
+  text-align: center;
+}
