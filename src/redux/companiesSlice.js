@@ -9,7 +9,6 @@ const initialState = {
   error: '',
 };
 const API_KEY = 'c0405893fd96337e82d58e3ee28f1c63';
-// const API_KEY2 = 'd254a71d820d908ce72d22c4e9a3ea7e';
 export const getCompanies = createAsyncThunk('companies/getCompanies', async () => {
   const company = await fetch(`https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=${API_KEY}`);
   const data = await company.json();
