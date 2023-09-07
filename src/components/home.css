@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+}
+
+.home-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  background-image: url("../assets/FINANCIAL_PROJECT.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.company-info {
+  margin-top: 50px;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  align-self: flex-end;
+  margin-right: 6%;
+}
+
+.company-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.company-symbol,
+.company-price {
+  margin-top: 5px;
+}
+
+.no-match {
+  color: black;
+}
+
+@media screen and (min-width: 716px) {
+  .home-section {
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+  }
+
+  .arrow-icon {
+    margin-right: 10%;
+    margin-top: 2%;
+  }
+}
