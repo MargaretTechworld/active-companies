@@ -7,8 +7,8 @@ import { singleCompanyData } from '../redux/companiesSlice';
 function CompanyDetails() {
   const dispatch = useDispatch();
   const { loading, error } = useSelector((state) => state.companies);
-  const parms = useParams();
-  const { symbol } = parms;
+  const params = useParams();
+  const { symbol } = params;
 
   useEffect(() => {
     dispatch(singleCompanyData(symbol));
