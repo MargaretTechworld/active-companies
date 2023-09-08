@@ -14,12 +14,14 @@
   flex-direction: column;
   background-color: #1a4782;
 }
-.details-img{
+
+.details-img {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1c067e;
 }
+
 .details-info {
   display: flex;
   padding: 13px;
