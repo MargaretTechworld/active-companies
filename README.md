@@ -77,8 +77,10 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://graceful-beijinho-8c4721.netlify.app/)
 
-- coming soon
+## 🚀 Video Link <a name="live-demo"></a>
+- [Video Link](https://www.loom.com/share/beeec23d65f342b98d80dbe2bb38f3b6?sid=a23201a3-1a27-4d91-9521-74d0fa25af69)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +175,8 @@ If you like this project give it a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this great opportunity!
+- I would like to thank Microverse for this great opportunity!
+- I would like to ackowledge Nelson Sakwa the author of the original design,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

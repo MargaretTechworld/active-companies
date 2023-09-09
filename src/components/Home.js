@@ -22,9 +22,9 @@ function Home() {
               <div className="container">
                 <FaArrowCircleRight className="arrow-icon" />
                 <div className="company-info">
-                  <p className="company-name">{company.name}</p>
-                  <p className="company-symbol">{company.symbol}</p>
-                  <p className="company-price">{company.price}</p>
+                  <p data-testid="company-name" className="company-name">{company.name}</p>
+                  <p data-testid="company-symbol" className="company-symbol">{company.symbol}</p>
+                  <p data-testid="company-price" className="company-price">{company.price}</p>
                 </div>
               </div>
             </NavLink>
